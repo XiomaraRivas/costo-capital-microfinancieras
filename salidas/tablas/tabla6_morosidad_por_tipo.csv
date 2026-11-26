@@ -1,0 +1,5 @@
+"tipo","coef_morosidad","error_est","p_valor","signif","observaciones","entidades"
+"Cajas Municipales",0.0276,0.0222,0.2387,"",1134,12
+"Cajas Rurales",-0.0247,0.0204,0.2639,"",577,8
+"Empresas de Creditos",-0.1927,0.1048,0.0931,"*",642,12
+"Financieras",-0.0024,0.0486,0.9619,"",917,13

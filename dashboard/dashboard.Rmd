@@ -1,0 +1,222 @@
+---
+title: "Costo de capital y morosidad · Microfinancieras del Perú 2018–2025"
+author: "Xiomara Rivas Ames · Finanzas I · UNCP"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+    theme:
+      version: 4
+      bg: "#FFFFFF"
+      fg: "#1A1D24"
+      primary: "#102554"
+      secondary: "#C99A28"
+---
+
+```{r setup, include=FALSE}
+# =====================================================================
+#  dashboard.Rmd — Dashboard interactivo del proyecto de la Unidad II
+#  Lee el panel generado por 03_limpieza_datos.R y las tablas de
+#  04_analisis.R. Para generarlo: abrir en RStudio y hacer clic en Knit.
+# =====================================================================
+library(flexdashboard)
+library(plotly)
+library(DT)
+
+CODIGO_ALUMNA <- "2024200520M"
+panel <- read.csv(file.path("..", "datos_procesados",
+                            paste0("datos_procesados_", CODIGO_ALUMNA, ".csv")),
+                  stringsAsFactors = FALSE)
+panel$fecha <- as.Date(panel$fecha)
+
+colores <- c("Cajas Municipales"    = "#1F4E79",
+             "Cajas Rurales"        = "#C0504D",
+             "Empresas de Creditos" = "#4F9A5A",
+             "Financieras"          = "#B07D12")
+
+# Medianas mensuales por tipo de entidad
+mediana_mes <- function(var) {
+  a <- aggregate(panel[[var]], by = list(fecha = panel$fecha, tipo = panel$tipo),
+                 FUN = median, na.rm = TRUE)
+  names(a)[3] <- "valor"
+  a[order(a$tipo, a$fecha), ]
+}
+tasa_bcrp <- unique(panel[, c("fecha", "tasa_referencia")])
+tasa_bcrp <- tasa_bcrp[order(tasa_bcrp$fecha), ]
+
+sin_atipicos <- panel[!panel$atipico, ]
+
+grafico_lineas <- function(datos, titulo_y) {
+  plot_ly(datos, x = ~fecha, y = ~valor, color = ~tipo, colors = colores,
+          type = "scatter", mode = "lines", line = list(width = 2),
+          hovertemplate = paste0("%{x|%m/%Y}<br>", titulo_y, ": %{y:.2f}<extra>%{fullData.name}</extra>")) %>%
+    layout(xaxis = list(title = ""), yaxis = list(title = titulo_y),
+           legend = list(orientation = "h", y = -0.15))
+}
+
+grafico_dispersion <- function(y, titulo_y) {
+  ajuste <- lm(sin_atipicos[[y]] ~ sin_atipicos$morosidad)
+  xs <- seq(min(sin_atipicos$morosidad, na.rm = TRUE), max(sin_atipicos$morosidad, na.rm = TRUE), length.out = 50)
+  plot_ly(sin_atipicos, x = ~morosidad, y = sin_atipicos[[y]], color = ~tipo, colors = colores,
+          type = "scatter", mode = "markers", marker = list(size = 5, opacity = 0.45),
+          text = ~paste0(entidad, " (", format(fecha, "%m/%Y"), ")"),
+          hovertemplate = paste0("%{text}<br>Morosidad: %{x:.2f}<br>", titulo_y, ": %{y:.2f}<extra></extra>")) %>%
+    add_lines(x = xs, y = coef(ajuste)[1] + coef(ajuste)[2] * xs, inherit = FALSE,
+              name = "Ajuste lineal", line = list(color = "black", width = 2)) %>%
+    layout(xaxis = list(title = "Morosidad (%)"), yaxis = list(title = titulo_y),
+           legend = list(orientation = "h", y = -0.2))
+}
+```
+
+Resumen
+=====================================================================
+
+Row
+---------------------------------------------------------------------
+
+### Entidades microfinancieras
+```{r}
+valueBox(length(unique(panel$entidad)), icon = "fa-building", color = "#102554")
+```
+
+### Meses analizados (2018–2025)
+```{r}
+valueBox(length(unique(panel$fecha)), icon = "fa-calendar", color = "#102554")
+```
+
+### Observaciones del panel
+```{r}
+valueBox(format(nrow(panel), big.mark = " "), icon = "fa-table", color = "#102554")
+```
+
+### Morosidad mediana (%)
+```{r}
+valueBox(sprintf("%.2f", median(panel$morosidad, na.rm = TRUE)), icon = "fa-exclamation-triangle", color = "#C99A28")
+```
+
+### Costo de fondeo mediano (%)
+```{r}
+valueBox(sprintf("%.2f", median(panel$costo_fondeo, na.rm = TRUE)), icon = "fa-percent", color = "#C99A28")
+```
+
+Row {data-height=480}
+---------------------------------------------------------------------
+
+### Costo de fondeo mediano por tipo de entidad y tasa de referencia del BCRP
+```{r}
+grafico_lineas(mediana_mes("costo_fondeo"), "Costo de fondeo (%)") %>%
+  add_lines(data = tasa_bcrp, x = ~fecha, y = ~tasa_referencia, inherit = FALSE,
+            name = "Tasa de referencia BCRP", line = list(color = "black", dash = "dash", width = 2))
+```
+
+### Morosidad mediana por tipo de entidad
+```{r}
+grafico_lineas(mediana_mes("morosidad"), "Morosidad (%)")
+```
+
+Row {data-height=480}
+---------------------------------------------------------------------
+
+### ROE mediano por tipo de entidad
+```{r}
+grafico_lineas(mediana_mes("roe"), "ROE (%)")
+```
+
+### Cómo leer este dashboard
+**Pregunta:** ¿las entidades microfinancieras con más morosidad pagan más por su dinero?
+
+- El **costo de fondeo** sigue a la **tasa de referencia del BCRP** (línea negra punteada): baja en 2021 y sube en 2023–2024.
+- La **morosidad** subió después de la pandemia y llegó a su máximo en 2024.
+- Las **cajas rurales** muestran el ROE más bajo del periodo.
+
+Haz clic en un tipo de entidad en la leyenda para ocultarlo o mostrarlo. Pasa el mouse por las líneas para ver los valores de cada mes.
+
+Morosidad, fondeo y ROE
+=====================================================================
+
+Row {data-height=520}
+---------------------------------------------------------------------
+
+### Morosidad y costo de fondeo (sin atípicos)
+```{r}
+grafico_dispersion("costo_fondeo", "Costo de fondeo (%)")
+```
+
+### Morosidad y ROE (sin atípicos)
+```{r}
+grafico_dispersion("roe", "ROE (%)")
+```
+
+Row {data-height=420}
+---------------------------------------------------------------------
+
+### Resultados de la regresión de panel con efectos fijos por entidad
+```{r}
+t4 <- read.csv(file.path("..", "salidas", "tablas", "tabla4a_costo_fondeo.csv"), stringsAsFactors = FALSE)
+t5 <- read.csv(file.path("..", "salidas", "tablas", "tabla5a_roe.csv"), stringsAsFactors = FALSE)
+nombres <- c(morosidad = "Morosidad", gastos_adm = "Gastos de administración",
+             ratio_capital = "Ratio de capital", tamano = "Tamaño (log del activo)",
+             tasa_referencia = "Tasa de referencia BCRP", Observaciones = "Observaciones",
+             Entidades = "Entidades", `R2 within` = "R2 within")
+formatear <- function(t) { t$signif[is.na(t$signif)] <- ""; ifelse(is.na(t$error_est), as.character(t$coeficiente),
+                                paste0(t$coeficiente, t$signif, " (", t$error_est, ")")) }
+reg <- data.frame(Variable = nombres[t4$variable],
+                  `Costo de fondeo` = formatear(t4), ROE = formatear(t5),
+                  check.names = FALSE)
+datatable(reg, rownames = FALSE, options = list(dom = "t", ordering = FALSE, pageLength = 10),
+          caption = "Coeficiente (error estándar agrupado por entidad). *** p<0.01; ** p<0.05; * p<0.10")
+```
+
+### Hallazgo principal
+- La morosidad **no tiene efecto significativo** sobre el costo de fondeo.
+- El costo de fondeo depende de la **tasa del BCRP**: +0.22 puntos por cada punto.
+- Un punto más de morosidad **reduce el ROE en 1.76 puntos**.
+- Un mayor ratio de capital **mejora el ROE**.
+
+**Conclusión:** el riesgo de la cartera no lo pagan los acreedores, sino los accionistas, que ven caer su rentabilidad.
+
+Entidades
+=====================================================================
+
+Row
+---------------------------------------------------------------------
+
+### Medianas 2018–2025 por entidad (escribe en los filtros para buscar, por ejemplo, "Huancayo")
+```{r}
+vars <- c("costo_fondeo", "morosidad", "roe", "gastos_adm", "ratio_capital")
+por_entidad <- aggregate(panel[, vars], by = list(Tipo = panel$tipo, Entidad = panel$entidad),
+                         FUN = median, na.rm = TRUE)
+por_entidad$Meses <- as.vector(table(panel$entidad)[por_entidad$Entidad])
+por_entidad[, vars] <- round(por_entidad[, vars], 2)
+names(por_entidad) <- c("Tipo", "Entidad", "Costo de fondeo (%)", "Morosidad (%)",
+                        "ROE (%)", "Gastos de adm. (%)", "Ratio de capital (%)", "Meses")
+datatable(por_entidad[order(por_entidad$Tipo, por_entidad$Entidad), ], rownames = FALSE,
+          filter = "top", options = list(pageLength = 15, scrollX = TRUE))
+```
+
+Datos y fuentes
+=====================================================================
+
+Row
+---------------------------------------------------------------------
+
+### Fuentes y reproducibilidad
+
+**Vía 1 — API de BCRPData:** tasa de referencia de la política monetaria (PD04722MM) e inflación a 12 meses (PN01273PM).
+
+**Vía 2 — descarga programática de la SBS:** indicadores financieros y estados financieros mensuales de cajas municipales, cajas rurales, empresas financieras y empresas de créditos (768 archivos Excel, enero 2018 – diciembre 2025).
+
+**Variables principales**
+
+- **Costo de fondeo:** gastos financieros anualizados entre el pasivo total (%).
+- **Morosidad:** créditos atrasados entre créditos directos (%).
+- **ROE:** utilidad neta anualizada entre patrimonio promedio (%).
+- **Controles:** gastos de administración, ratio de capital global, tamaño (log del activo) y tasa de referencia.
+
+**Código y datos:** [github.com/XiomaraRivas/costo-capital-microfinancieras](https://github.com/XiomaraRivas/costo-capital-microfinancieras)
+
+Scripts en R: `01_extraccion_api.R`, `02_scraping_web.R`, `03_limpieza_datos.R`, `04_analisis.R` y este `dashboard.Rmd`.
+
+**Datos procesados:** `datos_procesados_2024200520M.csv` · SHA-256: `1b7c992d5e08fe39ce0c78955404bc6d50e7d20ee760f576d2cfbe3e1f58b15c`
+
+*Elaborado por Xiomara Heydi Rivas Ames — Finanzas I (055D), Unidad II, 2026-II — Facultad de Economía, UNCP. Docente: Dr. Ciro Iván Machacuay Meza.*

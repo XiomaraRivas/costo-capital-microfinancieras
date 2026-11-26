@@ -1,0 +1,773 @@
+2026-11-26 00:21:46 | 01_extraccion_api | BCRPData | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04722MM-PN01273PM/json/2018-1/2025-12/esp | HTTP 200 
+2026-11-26 00:21:48 | 01_extraccion_api | BCRPData | filas descargadas: 96 meses x 2 series 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Cajas Municipales | C-1301-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Cajas Municipales | C-1101-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Cajas Rurales | C-2301-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Cajas Rurales | C-2101-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Financieras | B-3301-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Financieras | B-3101-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Empresas de Creditos | C-4301-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-01 | Empresas de Creditos | C-4103-en2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:46 | 02_scraping_web | SBS | 2018-02 | Cajas Municipales | C-1301-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Cajas Municipales | C-1101-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Cajas Rurales | C-2301-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Cajas Rurales | C-2101-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Financieras | B-3301-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Financieras | B-3101-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Empresas de Creditos | C-4301-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-02 | Empresas de Creditos | C-4103-fe2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-03 | Cajas Municipales | C-1301-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-03 | Cajas Municipales | C-1101-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:47 | 02_scraping_web | SBS | 2018-03 | Cajas Rurales | C-2301-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-03 | Cajas Rurales | C-2101-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-03 | Financieras | B-3301-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-03 | Financieras | B-3101-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-03 | Empresas de Creditos | C-4301-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-03 | Empresas de Creditos | C-4103-ma2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Cajas Municipales | C-1301-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Cajas Municipales | C-1101-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Cajas Rurales | C-2301-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Cajas Rurales | C-2101-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Financieras | B-3301-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Financieras | B-3101-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Empresas de Creditos | C-4301-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:48 | 02_scraping_web | SBS | 2018-04 | Empresas de Creditos | C-4103-ab2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Cajas Municipales | C-1301-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Cajas Municipales | C-1101-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Cajas Rurales | C-2301-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Cajas Rurales | C-2101-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Financieras | B-3301-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Financieras | B-3101-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Empresas de Creditos | C-4301-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-05 | Empresas de Creditos | C-4103-my2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Cajas Municipales | C-1301-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Cajas Municipales | C-1101-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Cajas Rurales | C-2301-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Cajas Rurales | C-2101-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Financieras | B-3301-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Financieras | B-3101-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:49 | 02_scraping_web | SBS | 2018-06 | Empresas de Creditos | C-4301-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-06 | Empresas de Creditos | C-4103-jn2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Cajas Municipales | C-1301-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Cajas Municipales | C-1101-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Cajas Rurales | C-2301-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Cajas Rurales | C-2101-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Financieras | B-3301-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Financieras | B-3101-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Empresas de Creditos | C-4301-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-07 | Empresas de Creditos | C-4103-jl2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Cajas Municipales | C-1301-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Cajas Municipales | C-1101-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Cajas Rurales | C-2301-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Cajas Rurales | C-2101-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Financieras | B-3301-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Financieras | B-3101-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Empresas de Creditos | C-4301-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:50 | 02_scraping_web | SBS | 2018-08 | Empresas de Creditos | C-4103-ag2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Cajas Municipales | C-1301-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Cajas Municipales | C-1101-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Cajas Rurales | C-2301-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Cajas Rurales | C-2101-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Financieras | B-3301-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Financieras | B-3101-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Empresas de Creditos | C-4301-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-09 | Empresas de Creditos | C-4103-se2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Cajas Municipales | C-1301-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Cajas Municipales | C-1101-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Cajas Rurales | C-2301-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Cajas Rurales | C-2101-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Financieras | B-3301-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Financieras | B-3101-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Empresas de Creditos | C-4301-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:51 | 02_scraping_web | SBS | 2018-10 | Empresas de Creditos | C-4103-oc2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Cajas Municipales | C-1301-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Cajas Municipales | C-1101-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Cajas Rurales | C-2301-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Cajas Rurales | C-2101-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Financieras | B-3301-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Financieras | B-3101-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Empresas de Creditos | C-4301-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-11 | Empresas de Creditos | C-4103-no2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-12 | Cajas Municipales | C-1301-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:52 | 02_scraping_web | SBS | 2018-12 | Cajas Municipales | C-1101-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2018-12 | Cajas Rurales | C-2301-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2018-12 | Cajas Rurales | C-2101-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2018-12 | Financieras | B-3301-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2018-12 | Financieras | B-3101-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2018-12 | Empresas de Creditos | C-4301-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2018-12 | Empresas de Creditos | C-4103-di2018.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Cajas Municipales | C-1301-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Cajas Municipales | C-1101-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Cajas Rurales | C-2301-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Cajas Rurales | C-2101-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Financieras | B-3301-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Financieras | B-3101-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Empresas de Creditos | C-4301-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-01 | Empresas de Creditos | C-4103-en2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:53 | 02_scraping_web | SBS | 2019-02 | Cajas Municipales | C-1301-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Cajas Municipales | C-1101-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Cajas Rurales | C-2301-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Cajas Rurales | C-2101-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Financieras | B-3301-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Financieras | B-3101-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Empresas de Creditos | C-4301-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-02 | Empresas de Creditos | C-4103-fe2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-03 | Cajas Municipales | C-1301-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:54 | 02_scraping_web | SBS | 2019-03 | Cajas Municipales | C-1101-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-03 | Cajas Rurales | C-2301-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-03 | Cajas Rurales | C-2101-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-03 | Financieras | B-3301-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-03 | Financieras | B-3101-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-03 | Empresas de Creditos | C-4301-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-03 | Empresas de Creditos | C-4103-ma2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:55 | 02_scraping_web | SBS | 2019-04 | Cajas Municipales | C-1301-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:56 | 02_scraping_web | SBS | 2019-04 | Cajas Municipales | C-1101-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:56 | 02_scraping_web | SBS | 2019-04 | Cajas Rurales | C-2301-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:56 | 02_scraping_web | SBS | 2019-04 | Cajas Rurales | C-2101-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:56 | 02_scraping_web | SBS | 2019-04 | Financieras | B-3301-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:56 | 02_scraping_web | SBS | 2019-04 | Financieras | B-3101-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:56 | 02_scraping_web | SBS | 2019-04 | Empresas de Creditos | C-4301-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-04 | Empresas de Creditos | C-4103-ab2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Cajas Municipales | C-1301-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Cajas Municipales | C-1101-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Cajas Rurales | C-2301-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Cajas Rurales | C-2101-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Financieras | B-3301-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Financieras | B-3101-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Empresas de Creditos | C-4301-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:57 | 02_scraping_web | SBS | 2019-05 | Empresas de Creditos | C-4103-my2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:58 | 02_scraping_web | SBS | 2019-06 | Cajas Municipales | C-1301-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Cajas Municipales | C-1101-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Cajas Rurales | C-2301-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Cajas Rurales | C-2101-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Financieras | B-3301-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Financieras | B-3101-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Empresas de Creditos | C-4301-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-06 | Empresas de Creditos | C-4103-jn2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-07 | Cajas Municipales | C-1301-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-07 | Cajas Municipales | C-1101-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:31:59 | 02_scraping_web | SBS | 2019-07 | Cajas Rurales | C-2301-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-07 | Cajas Rurales | C-2101-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-07 | Financieras | B-3301-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-07 | Financieras | B-3101-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-07 | Empresas de Creditos | C-4301-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-07 | Empresas de Creditos | C-4103-jl2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Cajas Municipales | C-1301-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Cajas Municipales | C-1101-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Cajas Rurales | C-2301-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Cajas Rurales | C-2101-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Financieras | B-3301-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Financieras | B-3101-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Empresas de Creditos | C-4301-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-08 | Empresas de Creditos | C-4103-ag2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-09 | Cajas Municipales | C-1301-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-09 | Cajas Municipales | C-1101-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-09 | Cajas Rurales | C-2301-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-09 | Cajas Rurales | C-2101-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:00 | 02_scraping_web | SBS | 2019-09 | Financieras | B-3301-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-09 | Financieras | B-3101-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-09 | Empresas de Creditos | C-4301-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-09 | Empresas de Creditos | C-4103-se2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Cajas Municipales | C-1301-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Cajas Municipales | C-1101-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Cajas Rurales | C-2301-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Cajas Rurales | C-2101-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Financieras | B-3301-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Financieras | B-3101-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Empresas de Creditos | C-4301-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-10 | Empresas de Creditos | C-4103-oc2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-11 | Cajas Municipales | C-1301-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:01 | 02_scraping_web | SBS | 2019-11 | Cajas Municipales | C-1101-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-11 | Cajas Rurales | C-2301-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-11 | Cajas Rurales | C-2101-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-11 | Financieras | B-3301-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-11 | Financieras | B-3101-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-11 | Empresas de Creditos | C-4301-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-11 | Empresas de Creditos | C-4103-no2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-12 | Cajas Municipales | C-1301-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-12 | Cajas Municipales | C-1101-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-12 | Cajas Rurales | C-2301-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-12 | Cajas Rurales | C-2101-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:02 | 02_scraping_web | SBS | 2019-12 | Financieras | B-3301-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2019-12 | Financieras | B-3101-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2019-12 | Empresas de Creditos | C-4301-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2019-12 | Empresas de Creditos | C-4103-di2019.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Cajas Municipales | C-1301-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Cajas Municipales | C-1101-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Cajas Rurales | C-2301-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Cajas Rurales | C-2101-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Financieras | B-3301-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Financieras | B-3101-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Empresas de Creditos | C-4301-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-01 | Empresas de Creditos | C-4103-en2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:03 | 02_scraping_web | SBS | 2020-02 | Cajas Municipales | C-1301-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Cajas Municipales | C-1101-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Cajas Rurales | C-2301-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Cajas Rurales | C-2101-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Financieras | B-3301-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Financieras | B-3101-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Empresas de Creditos | C-4301-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-02 | Empresas de Creditos | C-4103-fe2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-03 | Cajas Municipales | C-1301-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-03 | Cajas Municipales | C-1101-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:04 | 02_scraping_web | SBS | 2020-03 | Cajas Rurales | C-2301-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-03 | Cajas Rurales | C-2101-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-03 | Financieras | B-3301-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-03 | Financieras | B-3101-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-03 | Empresas de Creditos | C-4301-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-03 | Empresas de Creditos | C-4103-ma2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Cajas Municipales | C-1301-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Cajas Municipales | C-1101-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Cajas Rurales | C-2301-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Cajas Rurales | C-2101-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Financieras | B-3301-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Financieras | B-3101-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Empresas de Creditos | C-4301-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:05 | 02_scraping_web | SBS | 2020-04 | Empresas de Creditos | C-4103-ab2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Cajas Municipales | C-1301-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Cajas Municipales | C-1101-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Cajas Rurales | C-2301-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Cajas Rurales | C-2101-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Financieras | B-3301-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Financieras | B-3101-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Empresas de Creditos | C-4301-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-05 | Empresas de Creditos | C-4103-my2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-06 | Cajas Municipales | C-1301-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-06 | Cajas Municipales | C-1101-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-06 | Cajas Rurales | C-2301-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-06 | Cajas Rurales | C-2101-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-06 | Financieras | B-3301-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:06 | 02_scraping_web | SBS | 2020-06 | Financieras | B-3101-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-06 | Empresas de Creditos | C-4301-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-06 | Empresas de Creditos | C-4103-jn2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Cajas Municipales | C-1301-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Cajas Municipales | C-1101-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Cajas Rurales | C-2301-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Cajas Rurales | C-2101-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Financieras | B-3301-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Financieras | B-3101-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Empresas de Creditos | C-4301-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-07 | Empresas de Creditos | C-4103-jl2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:07 | 02_scraping_web | SBS | 2020-08 | Cajas Municipales | C-1301-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Cajas Municipales | C-1101-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Cajas Rurales | C-2301-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Cajas Rurales | C-2101-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Financieras | B-3301-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Financieras | B-3101-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Empresas de Creditos | C-4301-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-08 | Empresas de Creditos | C-4103-ag2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-09 | Cajas Municipales | C-1301-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-09 | Cajas Municipales | C-1101-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-09 | Cajas Rurales | C-2301-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:08 | 02_scraping_web | SBS | 2020-09 | Cajas Rurales | C-2101-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-09 | Financieras | B-3301-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-09 | Financieras | B-3101-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-09 | Empresas de Creditos | C-4301-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-09 | Empresas de Creditos | C-4103-se2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Cajas Municipales | C-1301-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Cajas Municipales | C-1101-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Cajas Rurales | C-2301-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Cajas Rurales | C-2101-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Financieras | B-3301-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Financieras | B-3101-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Empresas de Creditos | C-4301-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-10 | Empresas de Creditos | C-4103-oc2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:09 | 02_scraping_web | SBS | 2020-11 | Cajas Municipales | C-1301-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Cajas Municipales | C-1101-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Cajas Rurales | C-2301-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Cajas Rurales | C-2101-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Financieras | B-3301-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Financieras | B-3101-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Empresas de Creditos | C-4301-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-11 | Empresas de Creditos | C-4103-no2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Cajas Municipales | C-1301-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Cajas Municipales | C-1101-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Cajas Rurales | C-2301-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Cajas Rurales | C-2101-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Financieras | B-3301-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Financieras | B-3101-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Empresas de Creditos | C-4301-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2020-12 | Empresas de Creditos | C-4103-di2020.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2021-01 | Cajas Municipales | C-1301-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:10 | 02_scraping_web | SBS | 2021-01 | Cajas Municipales | C-1101-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-01 | Cajas Rurales | C-2301-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-01 | Cajas Rurales | C-2101-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-01 | Financieras | B-3301-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-01 | Financieras | B-3101-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-01 | Empresas de Creditos | C-4301-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-01 | Empresas de Creditos | C-4103-en2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Cajas Municipales | C-1301-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Cajas Municipales | C-1101-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Cajas Rurales | C-2301-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Cajas Rurales | C-2101-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Financieras | B-3301-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Financieras | B-3101-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Empresas de Creditos | C-4301-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-02 | Empresas de Creditos | C-4103-fe2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:11 | 02_scraping_web | SBS | 2021-03 | Cajas Municipales | C-1301-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Cajas Municipales | C-1101-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Cajas Rurales | C-2301-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Cajas Rurales | C-2101-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Financieras | B-3301-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Financieras | B-3101-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Empresas de Creditos | C-4301-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-03 | Empresas de Creditos | C-4103-ma2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Cajas Municipales | C-1301-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Cajas Municipales | C-1101-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Cajas Rurales | C-2301-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Cajas Rurales | C-2101-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Financieras | B-3301-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Financieras | B-3101-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:12 | 02_scraping_web | SBS | 2021-04 | Empresas de Creditos | C-4301-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-04 | Empresas de Creditos | C-4103-ab2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Cajas Municipales | C-1301-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Cajas Municipales | C-1101-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Cajas Rurales | C-2301-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Cajas Rurales | C-2101-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Financieras | B-3301-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Financieras | B-3101-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Empresas de Creditos | C-4301-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-05 | Empresas de Creditos | C-4103-my2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-06 | Cajas Municipales | C-1301-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-06 | Cajas Municipales | C-1101-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-06 | Cajas Rurales | C-2301-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:13 | 02_scraping_web | SBS | 2021-06 | Cajas Rurales | C-2101-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-06 | Financieras | B-3301-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-06 | Financieras | B-3101-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-06 | Empresas de Creditos | C-4301-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-06 | Empresas de Creditos | C-4103-jn2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Cajas Municipales | C-1301-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Cajas Municipales | C-1101-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Cajas Rurales | C-2301-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Cajas Rurales | C-2101-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Financieras | B-3301-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Financieras | B-3101-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Empresas de Creditos | C-4301-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:14 | 02_scraping_web | SBS | 2021-07 | Empresas de Creditos | C-4103-jl2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Cajas Municipales | C-1301-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Cajas Municipales | C-1101-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Cajas Rurales | C-2301-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Cajas Rurales | C-2101-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Financieras | B-3301-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Financieras | B-3101-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Empresas de Creditos | C-4301-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-08 | Empresas de Creditos | C-4103-ag2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-09 | Cajas Municipales | C-1301-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-09 | Cajas Municipales | C-1101-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-09 | Cajas Rurales | C-2301-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-09 | Cajas Rurales | C-2101-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:15 | 02_scraping_web | SBS | 2021-09 | Financieras | B-3301-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-09 | Financieras | B-3101-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-09 | Empresas de Creditos | C-4301-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-09 | Empresas de Creditos | C-4103-se2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Cajas Municipales | C-1301-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Cajas Municipales | C-1101-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Cajas Rurales | C-2301-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Cajas Rurales | C-2101-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Financieras | B-3301-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Financieras | B-3101-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Empresas de Creditos | C-4301-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-10 | Empresas de Creditos | C-4103-oc2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-11 | Cajas Municipales | C-1301-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-11 | Cajas Municipales | C-1101-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-11 | Cajas Rurales | C-2301-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-11 | Cajas Rurales | C-2101-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:16 | 02_scraping_web | SBS | 2021-11 | Financieras | B-3301-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-11 | Financieras | B-3101-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-11 | Empresas de Creditos | C-4301-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-11 | Empresas de Creditos | C-4103-no2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Cajas Municipales | C-1301-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Cajas Municipales | C-1101-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Cajas Rurales | C-2301-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Cajas Rurales | C-2101-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Financieras | B-3301-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Financieras | B-3101-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:17 | 02_scraping_web | SBS | 2021-12 | Empresas de Creditos | C-4301-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2021-12 | Empresas de Creditos | C-4103-di2021.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Cajas Municipales | C-1301-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Cajas Municipales | C-1101-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Cajas Rurales | C-2301-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Cajas Rurales | C-2101-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Financieras | B-3301-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Financieras | B-3101-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Empresas de Creditos | C-4301-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-01 | Empresas de Creditos | C-4103-en2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-02 | Cajas Municipales | C-1301-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-02 | Cajas Municipales | C-1101-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-02 | Cajas Rurales | C-2301-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-02 | Cajas Rurales | C-2101-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-02 | Financieras | B-3301-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:18 | 02_scraping_web | SBS | 2022-02 | Financieras | B-3101-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-02 | Empresas de Creditos | C-4301-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-02 | Empresas de Creditos | C-4103-fe2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Cajas Municipales | C-1301-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Cajas Municipales | C-1101-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Cajas Rurales | C-2301-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Cajas Rurales | C-2101-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Financieras | B-3301-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Financieras | B-3101-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Empresas de Creditos | C-4301-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-03 | Empresas de Creditos | C-4103-ma2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-04 | Cajas Municipales | C-1301-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-04 | Cajas Municipales | C-1101-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-04 | Cajas Rurales | C-2301-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-04 | Cajas Rurales | C-2101-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:19 | 02_scraping_web | SBS | 2022-04 | Financieras | B-3301-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-04 | Financieras | B-3101-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-04 | Empresas de Creditos | C-4301-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-04 | Empresas de Creditos | C-4103-ab2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Cajas Municipales | C-1301-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Cajas Municipales | C-1101-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Cajas Rurales | C-2301-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Cajas Rurales | C-2101-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Financieras | B-3301-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Financieras | B-3101-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Empresas de Creditos | C-4301-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-05 | Empresas de Creditos | C-4103-my2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-06 | Cajas Municipales | C-1301-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:20 | 02_scraping_web | SBS | 2022-06 | Cajas Municipales | C-1101-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-06 | Cajas Rurales | C-2301-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-06 | Cajas Rurales | C-2101-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-06 | Financieras | B-3301-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-06 | Financieras | B-3101-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-06 | Empresas de Creditos | C-4301-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-06 | Empresas de Creditos | C-4103-jn2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Cajas Municipales | C-1301-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Cajas Municipales | C-1101-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Cajas Rurales | C-2301-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Cajas Rurales | C-2101-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Financieras | B-3301-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Financieras | B-3101-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Empresas de Creditos | C-4301-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-07 | Empresas de Creditos | C-4103-jl2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-08 | Cajas Municipales | C-1301-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-08 | Cajas Municipales | C-1101-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-08 | Cajas Rurales | C-2301-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-08 | Cajas Rurales | C-2101-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-08 | Financieras | B-3301-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:21 | 02_scraping_web | SBS | 2022-08 | Financieras | B-3101-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-08 | Empresas de Creditos | C-4301-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-08 | Empresas de Creditos | C-4103-ag2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Cajas Municipales | C-1301-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Cajas Municipales | C-1101-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Cajas Rurales | C-2301-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Cajas Rurales | C-2101-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Financieras | B-3301-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Financieras | B-3101-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Empresas de Creditos | C-4301-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-09 | Empresas de Creditos | C-4103-se2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Cajas Municipales | C-1301-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Cajas Municipales | C-1101-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Cajas Rurales | C-2301-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Cajas Rurales | C-2101-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Financieras | B-3301-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Financieras | B-3101-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Empresas de Creditos | C-4301-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:22 | 02_scraping_web | SBS | 2022-10 | Empresas de Creditos | C-4103-oc2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Cajas Municipales | C-1301-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Cajas Municipales | C-1101-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Cajas Rurales | C-2301-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Cajas Rurales | C-2101-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Financieras | B-3301-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Financieras | B-3101-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Empresas de Creditos | C-4301-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-11 | Empresas de Creditos | C-4103-no2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-12 | Cajas Municipales | C-1301-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-12 | Cajas Municipales | C-1101-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-12 | Cajas Rurales | C-2301-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-12 | Cajas Rurales | C-2101-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-12 | Financieras | B-3301-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:23 | 02_scraping_web | SBS | 2022-12 | Financieras | B-3101-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2022-12 | Empresas de Creditos | C-4301-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2022-12 | Empresas de Creditos | C-4103-di2022.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Cajas Municipales | C-1301-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Cajas Municipales | C-1101-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Cajas Rurales | C-2301-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Cajas Rurales | C-2101-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Financieras | B-3301-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Financieras | B-3101-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Empresas de Creditos | C-4301-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-01 | Empresas de Creditos | C-4103-en2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Cajas Municipales | C-1301-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Cajas Municipales | C-1101-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Cajas Rurales | C-2301-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Cajas Rurales | C-2101-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Financieras | B-3301-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Financieras | B-3101-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Empresas de Creditos | C-4301-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:24 | 02_scraping_web | SBS | 2023-02 | Empresas de Creditos | C-4103-fe2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Cajas Municipales | C-1301-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Cajas Municipales | C-1101-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Cajas Rurales | C-2301-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Cajas Rurales | C-2101-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Financieras | B-3301-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Financieras | B-3101-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:25 | 02_scraping_web | SBS | 2023-03 | Empresas de Creditos | C-4301-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-03 | Empresas de Creditos | C-4103-ma2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Cajas Municipales | C-1301-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Cajas Municipales | C-1101-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Cajas Rurales | C-2301-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Cajas Rurales | C-2101-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Financieras | B-3301-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Financieras | B-3101-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Empresas de Creditos | C-4301-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-04 | Empresas de Creditos | C-4103-ab2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:27 | 02_scraping_web | SBS | 2023-05 | Cajas Municipales | C-1301-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Cajas Municipales | C-1101-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Cajas Rurales | C-2301-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Cajas Rurales | C-2101-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Financieras | B-3301-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Financieras | B-3101-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Empresas de Creditos | C-4301-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-05 | Empresas de Creditos | C-4103-my2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Cajas Municipales | C-1301-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Cajas Municipales | C-1101-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Cajas Rurales | C-2301-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Cajas Rurales | C-2101-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Financieras | B-3301-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Financieras | B-3101-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Empresas de Creditos | C-4301-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-06 | Empresas de Creditos | C-4103-jn2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:28 | 02_scraping_web | SBS | 2023-07 | Cajas Municipales | C-1301-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Cajas Municipales | C-1101-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Cajas Rurales | C-2301-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Cajas Rurales | C-2101-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Financieras | B-3301-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Financieras | B-3101-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Empresas de Creditos | C-4301-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-07 | Empresas de Creditos | C-4103-jl2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Cajas Municipales | C-1301-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Cajas Municipales | C-1101-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Cajas Rurales | C-2301-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Cajas Rurales | C-2101-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Financieras | B-3301-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Financieras | B-3101-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Empresas de Creditos | C-4301-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:29 | 02_scraping_web | SBS | 2023-08 | Empresas de Creditos | C-4103-ag2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Cajas Municipales | C-1301-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Cajas Municipales | C-1101-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Cajas Rurales | C-2301-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Cajas Rurales | C-2101-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Financieras | B-3301-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Financieras | B-3101-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Empresas de Creditos | C-4301-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-09 | Empresas de Creditos | C-4103-se2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-10 | Cajas Municipales | C-1301-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-10 | Cajas Municipales | C-1101-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-10 | Cajas Rurales | C-2301-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-10 | Cajas Rurales | C-2101-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-10 | Financieras | B-3301-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:30 | 02_scraping_web | SBS | 2023-10 | Financieras | B-3101-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-10 | Empresas de Creditos | C-4301-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-10 | Empresas de Creditos | C-4103-oc2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Cajas Municipales | C-1301-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Cajas Municipales | C-1101-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Cajas Rurales | C-2301-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Cajas Rurales | C-2101-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Financieras | B-3301-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Financieras | B-3101-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Empresas de Creditos | C-4301-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-11 | Empresas de Creditos | C-4103-no2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-12 | Cajas Municipales | C-1301-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-12 | Cajas Municipales | C-1101-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:31 | 02_scraping_web | SBS | 2023-12 | Cajas Rurales | C-2301-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2023-12 | Cajas Rurales | C-2101-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2023-12 | Financieras | B-3301-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2023-12 | Financieras | B-3101-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2023-12 | Empresas de Creditos | C-4301-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2023-12 | Empresas de Creditos | C-4103-di2023.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2024-01 | Cajas Municipales | C-1301-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2024-01 | Cajas Municipales | C-1101-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:32 | 02_scraping_web | SBS | 2024-01 | Cajas Rurales | C-2301-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-01 | Cajas Rurales | C-2101-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-01 | Financieras | B-3301-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-01 | Financieras | B-3101-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-01 | Empresas de Creditos | C-4301-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-01 | Empresas de Creditos | C-4103-en2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Cajas Municipales | C-1301-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Cajas Municipales | C-1101-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Cajas Rurales | C-2301-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Cajas Rurales | C-2101-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Financieras | B-3301-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Financieras | B-3101-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Empresas de Creditos | C-4301-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:33 | 02_scraping_web | SBS | 2024-02 | Empresas de Creditos | C-4103-fe2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Cajas Municipales | C-1301-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Cajas Municipales | C-1101-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Cajas Rurales | C-2301-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Cajas Rurales | C-2101-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Financieras | B-3301-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Financieras | B-3101-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Empresas de Creditos | C-4301-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-03 | Empresas de Creditos | C-4103-ma2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Cajas Municipales | C-1301-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Cajas Municipales | C-1101-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Cajas Rurales | C-2301-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Cajas Rurales | C-2101-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Financieras | B-3301-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Financieras | B-3101-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Empresas de Creditos | C-4301-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:34 | 02_scraping_web | SBS | 2024-04 | Empresas de Creditos | C-4103-ab2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Cajas Municipales | C-1301-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Cajas Municipales | C-1101-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Cajas Rurales | C-2301-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Cajas Rurales | C-2101-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Financieras | B-3301-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Financieras | B-3101-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Empresas de Creditos | C-4301-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-05 | Empresas de Creditos | C-4103-my2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Cajas Municipales | C-1301-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Cajas Municipales | C-1101-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Cajas Rurales | C-2301-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Cajas Rurales | C-2101-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Financieras | B-3301-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Financieras | B-3101-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:35 | 02_scraping_web | SBS | 2024-06 | Empresas de Creditos | C-4301-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-06 | Empresas de Creditos | C-4103-jn2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Cajas Municipales | C-1301-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Cajas Municipales | C-1101-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Cajas Rurales | C-2301-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Cajas Rurales | C-2101-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Financieras | B-3301-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Financieras | B-3101-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Empresas de Creditos | C-4301-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-07 | Empresas de Creditos | C-4103-jl2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Cajas Municipales | C-1301-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Cajas Municipales | C-1101-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Cajas Rurales | C-2301-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Cajas Rurales | C-2101-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Financieras | B-3301-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Financieras | B-3101-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:36 | 02_scraping_web | SBS | 2024-08 | Empresas de Creditos | C-4301-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-08 | Empresas de Creditos | C-4103-ag2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Cajas Municipales | C-1301-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Cajas Municipales | C-1101-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Cajas Rurales | C-2301-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Cajas Rurales | C-2101-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Financieras | B-3301-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Financieras | B-3101-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Empresas de Creditos | C-4301-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-09 | Empresas de Creditos | C-4103-se2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Cajas Municipales | C-1301-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Cajas Municipales | C-1101-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Cajas Rurales | C-2301-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Cajas Rurales | C-2101-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Financieras | B-3301-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Financieras | B-3101-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Empresas de Creditos | C-4301-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:37 | 02_scraping_web | SBS | 2024-10 | Empresas de Creditos | C-4103-oc2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Cajas Municipales | C-1301-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Cajas Municipales | C-1101-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Cajas Rurales | C-2301-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Cajas Rurales | C-2101-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Financieras | B-3301-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Financieras | B-3101-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Empresas de Creditos | C-4301-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-11 | Empresas de Creditos | C-4103-no2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Cajas Municipales | C-1301-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Cajas Municipales | C-1101-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Cajas Rurales | C-2301-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Cajas Rurales | C-2101-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Financieras | B-3301-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Financieras | B-3101-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Empresas de Creditos | C-4301-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2024-12 | Empresas de Creditos | C-4103-di2024.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:38 | 02_scraping_web | SBS | 2025-01 | Cajas Municipales | C-1301-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Cajas Municipales | C-1101-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Cajas Rurales | C-2301-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Cajas Rurales | C-2101-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Financieras | B-3301-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Financieras | B-3101-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Empresas de Creditos | C-4301-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-01 | Empresas de Creditos | C-4103-en2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Cajas Municipales | C-1301-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Cajas Municipales | C-1101-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Cajas Rurales | C-2301-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Cajas Rurales | C-2101-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Financieras | B-3301-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Financieras | B-3101-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Empresas de Creditos | C-4301-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-02 | Empresas de Creditos | C-4103-fe2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-03 | Cajas Municipales | C-1301-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-03 | Cajas Municipales | C-1101-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-03 | Cajas Rurales | C-2301-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:39 | 02_scraping_web | SBS | 2025-03 | Cajas Rurales | C-2101-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-03 | Financieras | B-3301-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-03 | Financieras | B-3101-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-03 | Empresas de Creditos | C-4301-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-03 | Empresas de Creditos | C-4103-ma2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Cajas Municipales | C-1301-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Cajas Municipales | C-1101-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Cajas Rurales | C-2301-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Cajas Rurales | C-2101-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Financieras | B-3301-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Financieras | B-3101-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Empresas de Creditos | C-4301-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-04 | Empresas de Creditos | C-4103-ab2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Cajas Municipales | C-1301-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Cajas Municipales | C-1101-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Cajas Rurales | C-2301-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Cajas Rurales | C-2101-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Financieras | B-3301-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Financieras | B-3101-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Empresas de Creditos | C-4301-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:40 | 02_scraping_web | SBS | 2025-05 | Empresas de Creditos | C-4103-my2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Cajas Municipales | C-1301-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Cajas Municipales | C-1101-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Cajas Rurales | C-2301-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Cajas Rurales | C-2101-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Financieras | B-3301-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Financieras | B-3101-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Empresas de Creditos | C-4301-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-06 | Empresas de Creditos | C-4103-jn2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Cajas Municipales | C-1301-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Cajas Municipales | C-1101-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Cajas Rurales | C-2301-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Cajas Rurales | C-2101-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Financieras | B-3301-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Financieras | B-3101-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Empresas de Creditos | C-4301-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-07 | Empresas de Creditos | C-4103-jl2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:41 | 02_scraping_web | SBS | 2025-08 | Cajas Municipales | C-1301-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Cajas Municipales | C-1101-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Cajas Rurales | C-2301-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Cajas Rurales | C-2101-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Financieras | B-3301-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Financieras | B-3101-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Empresas de Creditos | C-4301-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-08 | Empresas de Creditos | C-4103-ag2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-09 | Cajas Municipales | C-1301-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-09 | Cajas Municipales | C-1101-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-09 | Cajas Rurales | C-2301-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:42 | 02_scraping_web | SBS | 2025-09 | Cajas Rurales | C-2101-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-09 | Financieras | B-3301-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-09 | Financieras | B-3101-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-09 | Empresas de Creditos | C-4301-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-09 | Empresas de Creditos | C-4103-se2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Cajas Municipales | C-1301-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Cajas Municipales | C-1101-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Cajas Rurales | C-2301-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Cajas Rurales | C-2101-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Financieras | B-3301-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Financieras | B-3101-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:43 | 02_scraping_web | SBS | 2025-10 | Empresas de Creditos | C-4301-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-10 | Empresas de Creditos | C-4103-oc2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Cajas Municipales | C-1301-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Cajas Municipales | C-1101-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Cajas Rurales | C-2301-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Cajas Rurales | C-2101-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Financieras | B-3301-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Financieras | B-3101-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Empresas de Creditos | C-4301-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-11 | Empresas de Creditos | C-4103-no2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Cajas Municipales | C-1301-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Cajas Municipales | C-1101-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Cajas Rurales | C-2301-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Cajas Rurales | C-2101-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Financieras | B-3301-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Financieras | B-3101-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Empresas de Creditos | C-4301-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:44 | 02_scraping_web | SBS | 2025-12 | Empresas de Creditos | C-4103-di2025.XLS | HTTP 200 | ya existia 
+2026-11-26 00:32:45 | 02_scraping_web | SBS | archivos descargados: 768 de 768 
+2026-11-26 00:36:48 | 03_limpieza_datos | panel final: 3289 filas, 45 entidades | SHA-256: 1b7c992d5e08fe39ce0c78955404bc6d50e7d20ee760f576d2cfbe3e1f58b15c 
+2026-11-26 00:37:35 | 04_analisis | tablas y figuras generadas en /salidas 

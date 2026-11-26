@@ -1,0 +1,12 @@
+Fecha de ejecucion: 2026-11-26 00:36:48.420888
+Archivos SBS leidos: 768 de 768
+Archivos con problemas: 
+Observaciones al unir: 3306
+Eliminadas por inactividad: 0
+Eliminadas por valores imposibles: 17
+Observaciones finales: 3289
+Entidades: 45
+Meses: 96
+Marcadas como atipicas (no eliminadas): 153
+Faltantes por variable: costo_fondeo=0; morosidad=1; roe=16; gastos_adm=16; ratio_capital=2; tamano=0
+SHA-256 del panel: 1b7c992d5e08fe39ce0c78955404bc6d50e7d20ee760f576d2cfbe3e1f58b15c
